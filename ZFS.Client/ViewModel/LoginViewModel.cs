@@ -161,7 +161,7 @@ namespace ZFS.Client.ViewModel
 
                         Loginer.LoginerUser.Account = req.Account;
                         Loginer.LoginerUser.UserName = req.UserName;
-                        Loginer.LoginerUser.IsAdmin = req.FlagAdmin == '1' ? true : false;
+                        Loginer.LoginerUser.IsAdmin = req.FlagAdmin == "1" ? true : false;
                         Loginer.LoginerUser.Email = req.Email;
                         var result =await user.LoginUserAuthAsync(req.Account);
                         if(result.success&&result.authorityEntity!=null)

@@ -73,6 +73,8 @@ namespace ZFS.Client.ViewModel
 
             if (Mode == ActionMode.Add)
             {
+                Model.FlagAdmin = "0";
+                Model.FlagOnline = "0";
                 var addResult = await service.AddUserAsync(Model);
                 if (addResult)
                 {

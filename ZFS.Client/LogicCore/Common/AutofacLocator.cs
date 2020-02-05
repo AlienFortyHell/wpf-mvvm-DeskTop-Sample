@@ -36,7 +36,6 @@ namespace ZFS.Client.LogicCore.Common
             Container.RegisterType<GroupService>().As<IGroupService>();
             Container.RegisterType<MenuService>().As<IMenuService>();
             Container.RegisterType<DictionaryService>().As<IDictionariesService>();
-
             Container.RegisterType<MsgDlg>().As<IShowContent>();
 
             container = Container.Build();
