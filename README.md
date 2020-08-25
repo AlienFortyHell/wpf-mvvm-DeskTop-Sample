@@ -1,3 +1,6 @@
+基于.NET Core 新版本, 包含安卓、IOS客户端：
+https://github.com/HenJigg/WPF-Xamarin-Blazor-Examples
+
 本项目为开源WPF MVVM 演示项目,关于开发工具介绍如下:
 * 基于:      .Net Framework4.5；
 * 开发工具(IDE)： Visua Studio2017
